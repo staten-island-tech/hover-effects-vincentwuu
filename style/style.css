@@ -1,0 +1,23 @@
+html {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.holiday-parent {
+  width: 65rem;
+  height: 45rem;
+}
+
+.holiday-gallery {
+  position: relative;
+  margin: 2rem;
+}
+
+.holiday {
+  height: 20rem;
+  position: absolute;
+}
+/*# sourceMappingURL=style.css.map */
