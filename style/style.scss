@@ -6,7 +6,7 @@ html {
 }
 
 .holiday-parent {
-    width: 65rem;
+    width: 190rem;
     height: 45rem;
 }
 
@@ -22,17 +22,17 @@ html {
     outline-offset: 1;
 }
 
-.diwali {
-    top: 15rem;
+.rose {
+    top: 3rem;
+    left: 22%;
+}
+.lavendar {
+    top: 22rem;
     left: 15%;
 }
-.saturnalia {
-    top: 5rem;
-    right: 0;
-}
-.china {
-    top: -5rem;
-    left: 1;
+.daisy {
+    top: 6rem;
+    left: 10%;
 }
 
 .holiday:hover {
@@ -44,4 +44,18 @@ html {
 .holiday-gallery:hover .holiday:not(:hover) {
     transform: scale(.8);
     opacity: .5;
+}
+
+.button {
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.button:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
