@@ -125,15 +125,3 @@ html {
 .four:after{
     background-color: orange;
 }
-
-.four:before,
-.four:after{
-  transform-origin: center center;
-  transform: scale(1,0);
-}
-
-.four:before,
-.four:after{
-  transform: scale(1);
-  border-radius: 0;
-}
