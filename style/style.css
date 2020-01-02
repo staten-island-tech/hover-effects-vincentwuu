@@ -63,15 +63,32 @@ html {
   font-size: 16px;
 }
 
+.two {
+  letter-spacing: 0;
+  background-color: black;
+}
+
+.three {
+  letter-spacing: 0;
+  background-color: white;
+  color: black;
+  border: 2px solid blue;
+}
+
+.four {
+  letter-spacing: 0;
+  background-color: red;
+}
+
+.five {
+  letter-spacing: 0;
+  background-color: brown;
+}
+
 .one:hover {
   -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
           box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   cursor: pointer;
-}
-
-.two {
-  letter-spacing: 0;
-  background-color: black;
 }
 
 .two:hover,
@@ -108,5 +125,30 @@ html {
   bottom: auto;
   top: 0;
   width: 70%;
+}
+
+.three:hover,
+.three:active {
+  background-color: blue;
+}
+
+.four:hover,
+.four:after {
+  background-color: orange;
+}
+
+.four:before,
+.four:after {
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+  -webkit-transform: scale(1, 0);
+          transform: scale(1, 0);
+}
+
+.four:before,
+.four:after {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  border-radius: 0;
 }
 /*# sourceMappingURL=style.css.map */
