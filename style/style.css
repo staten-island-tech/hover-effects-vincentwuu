@@ -136,19 +136,4 @@ html {
 .four:after {
   background-color: orange;
 }
-
-.four:before,
-.four:after {
-  -webkit-transform-origin: center center;
-          transform-origin: center center;
-  -webkit-transform: scale(1, 0);
-          transform: scale(1, 0);
-}
-
-.four:before,
-.four:after {
-  -webkit-transform: scale(1);
-          transform: scale(1);
-  border-radius: 0;
-}
 /*# sourceMappingURL=style.css.map */
