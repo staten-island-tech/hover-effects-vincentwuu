@@ -67,16 +67,29 @@ html {
     background-color: white;
     color: black;
     border: 2px solid rgba($color: #0000ff, $alpha: 1.0);
+    border-radius: 5cm;    
 }
 
 .four {
-    letter-spacing: 0;
-    background-color: red;
+    border-radius: 4px;
+    background: linear-gradient(to right, #67b26b, #4ca2cb) !important;
+    border: none;
+    color: #FFFFFF;
+    width: 150px;
+    transition: all 0.4s;
+    cursor: pointer;
+    margin: 5px;
 }
 
 .five {
-    letter-spacing: 0;
-    background-color: brown;
+    border: none;
+    background: #404040;
+    color: #ffffff;
+    font-weight: 100;
+    padding: 20px;
+    border-radius: 6px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
 }
 
 .one:hover {
@@ -86,7 +99,7 @@ html {
 
 .two:hover,
 .two:active {
-  letter-spacing: 5px;
+  cursor: pointer;
 }
 
 .two:after,
@@ -119,9 +132,19 @@ html {
 .three:hover,
 .three:active{
     background-color: blue;
+    cursor: pointer;
 }
 
-.four:hover,
-.four:after{
-    background-color: orange;
+.four:hover{
+
+}
+
+.five:hover {
+    color: #404040;
+    font-weight: 700; 
+    letter-spacing: 3px;
+    background: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
 }
