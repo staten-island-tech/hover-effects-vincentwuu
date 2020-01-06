@@ -165,6 +165,7 @@ html {
   text-shadow: -1px -1px 0 #cf0000;
   -webkit-transition: all 250ms linear;
   transition: all 250ms linear;
+  cursor: pointer;
 }
 
 .five:hover {
