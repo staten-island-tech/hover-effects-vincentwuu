@@ -114,6 +114,7 @@ html {
 
 .two:hover,
 .two:active {
+  letter-spacing: 5px;
   cursor: pointer;
 }
 
