@@ -151,7 +151,7 @@ html {
 
 .three:hover,
 .three:active {
-  background-color: blue;
+  background-color: aqua;
   cursor: pointer;
 }
 
